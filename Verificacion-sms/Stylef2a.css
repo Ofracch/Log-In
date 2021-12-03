@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+* { 
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat, sans-seif;
+    text-align: center;
+}
+body {
+    background: rgb(101,138,255);
+background: linear-gradient(90deg, rgba(101,138,255,1) 0%, rgba(149,149,149,1) 50%, rgba(101,138,255,1) 100%);
+}
+.boxperfil {
+    background: url(/Css/Log-In/Candado.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+h1 {
+    color: #128066;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+p {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.input {
+    font-size: 25px;
+    height: 54px;
+    width: 448px;
+    align-content: center;
+    border: solid #00000042 1px;
+    border-radius: 100px 100px 100px 100px;
+    margin-bottom: 30px;
+}
+.options {
+    background-color: #128066;
+    color: white;
+    border: none;
+    font-size: 25px;
+    height: 54px;
+    width: 448px;
+    padding: 5px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+}
+
+.ayuda {
+    background-color: #fff;
+    color: black;
+    border: none;
+    font-size: 15px;
+    height: 30px;
+    width: 180px;
+    padding: 2px 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+article
+{
+    border: solid rgb(114, 112, 112) 1px;
+    background-color: #e0e0e01e;
+    border-radius: 5;
+    width: 500px;
+    height: 620px;
+    display: inline-block;
+    margin-top: 10px;
+}
+#xd2 {
+    color: black;
+    text-decoration: none;
+}
+#xd {
+    color: white;
+    text-decoration: none;
+}
+.options:hover {
+    background-color: #2d7967;
+    }
+.ayuda:hover {
+        background-color: rgb(206, 206, 206);
+    }
+
+
+
+    @media (max-width: 600px) {
+        .box{
+    width: 300px;
+    height: 415px;
+    }
+    .boxperfil {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 15px;
+    }
+    h1{
+        color: #128066;
+        font-size: 20px;
+    }
+    p {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .input {
+        font-size: 13px;
+        height: 34px;
+        width: 248px;
+    }
+    .options {
+        font-size: 13px;
+        height: 34px;
+        width: 248px;
+    }
+    .ayuda {
+        font-size: 10px ;
+        height: 20px;
+        width: 80px;
+    }
+    }

@@ -14,7 +14,7 @@ background: linear-gradient(90deg, rgba(101,138,255,1) 0%, rgba(149,149,149,1) 5
     border: none;
 }
 .boxperfil {
-    background: url(/Css/Log-In/Perfil.png);
+    background: url(Perfil.png);
     background-size: cover;
     background-position: center;
     border-radius: 50%;
